@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doom Eternal Soundtrack"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/song1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1 - Hell On Earth"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2 - Cultist Base"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="3 - Blood Harvesting"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="4 - Soul Extraction"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="5 - BFG Division 2020"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="6 - Metal Hell"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="7 - Paradise Lost"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="8 - Urdak"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="9 - The DOOM Hunter"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="10 - Infiltrate The Cult"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="11 - A Cultist Prayer"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="12 - Demonic Corruption"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="13 - Maykr Drones"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="14 - The Khan Maykr (Chad Mossholder Remix)"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="15 - Deag Ranak"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="16 - Mars Core"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="17 - Deag Nilox - First Priest Death"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song18"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="18 - The Icon Of Sin"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song19"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="19 - Phobos Space"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="20 - A Slayer City"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song21"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="21 - The Super Gore Nest"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="22 - The Only Thing They Fear Is You"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song23"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="23 - Asteroids And Rockets"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song24"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="24 - You Can't Just Shoot A Hole Into The Surface Of Mars"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="25 - DOOM Hunted"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song26"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="26 - Blood Sacrifice"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song27"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="27 - Welcome Home Great Slayer"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song28"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="28 - Prayer Of The Diminished"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song29"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="29 - Gladiator Boss"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song30"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="30 - Beast Of The Arena"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song31"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="31 - Fortress Of Doom - Chad Mossholder"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song32"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="32 - Revenant Possession"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song33"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="33 - Usuper Gore"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song34"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="34 - Sinister"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song35"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="35 - Super Shotgun Reunion"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song36"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="36 - 	The Baron Of Hell"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song37"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="37 - Doomed Hunter"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song38"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="38 - Command And Control"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song39"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="39 - BFG 10k"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song40"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="40 - Sam's Base"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song41"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="41 - Phobos Base"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song42"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="42 - Acquiring The BFG"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song43"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="43 - Heart Of The Beast"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song44"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="44 - Consumption"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song45"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="45 - Bio-organic Continuum Gate"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song46"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="46 - Massive Demonic Presence"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song47"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="47 - Armored Response Coalition"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song48"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="48 - Kalibas The Sightless Judge"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song49"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="49 - S.O.S. From Earth"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song50"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="50 - Barging In"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song51"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="51 - Taras Nabad"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song52"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="52 - King Novik"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song53"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="53 - The Khan Maykr"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song54"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="54 - Meathook"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song55"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="55 - Eternal Prophecy"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song56"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="56 - 	The Betrayer"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song57"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="57 - DOOM Eternal"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+        <Button
+            android:id="@+id/song58"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="58 - End Of Level"
+            android:textColor="@color/white"
+            android:backgroundTint="#692f17"
+            />
+        <Button
+            android:id="@+id/song59"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="59 - Final Sin - Sandy City"
+            android:textColor="@color/white"
+            android:backgroundTint="#8b4c0d"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
